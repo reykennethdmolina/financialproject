@@ -30,7 +30,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
     # Apps URLS
-    url(r'^bank/', include('bank.urls', namespace='bank')),
     url(r'^mainproduct/', include('mainproduct.urls', namespace='mainproduct')),
     url(r'^product/', include('product.urls', namespace='product')),
 
@@ -40,10 +39,10 @@ urlpatterns = [
     url(r'^mainunit/', include('mainunit.urls', namespace='mainunit')),
     url(r'^unit/', include('unit.urls', namespace='unit')),
     url(r'^typeofexpense/', include('typeofexpense.urls', namespace='typeofexpense')),
-    url(r'^currency/', include('currency.urls', namespace='currency')),
-    url(r'^industry/', include('industry.urls', namespace='industry')),
-    url(r'^bankaccounttype/', include('bankaccounttype.urls', namespace='bankaccounttype')),
-    url(r'^bankaccount/', include('bankaccount.urls', namespace='bankaccount')),
+    #url(r'^currency/', include('currency.urls', namespace='currency')),
+    #url(r'^industry/', include('industry.urls', namespace='industry')),
+    #url(r'^bankaccounttype/', include('bankaccounttype.urls', namespace='bankaccounttype')),
+    #url(r'^bankaccount/', include('bankaccount.urls', namespace='bankaccount')),
 
     # Apps Kelvin
     url(r'^ataxcode/', include('ataxcode.urls', namespace='ataxcode')),
@@ -51,7 +50,6 @@ urlpatterns = [
     url(r'^inputvattype/', include('inputvattype.urls', namespace='inputvattype')),
     url(r'^kindofexpense/', include('kindofexpense.urls', namespace='kindofexpense')),
     url(r'^mistype/', include('mistype.urls', namespace='mistype')),
-    url(r'^bankbranch/', include('bankbranch.urls', namespace='bankbranch')),
 
     # Login/Logout URLs
     url(r'^login/$', login, {'template_name': 'login.html'}),
