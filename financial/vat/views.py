@@ -9,7 +9,7 @@ import datetime
 @method_decorator(login_required, name='dispatch')
 class IndexView(ListView):
     model = Vat
-    template_name = 'vat\index.html'
+    template_name = 'vat/index.html'
     context_object_name = 'data_list'
 
     def get_queryset(self):
@@ -19,13 +19,13 @@ class IndexView(ListView):
 @method_decorator(login_required, name='dispatch')
 class DetailView(DetailView):
     model = Vat
-    template_name = 'vat\detail.html'
+    template_name = 'vat/detail.html'
 
 
 @method_decorator(login_required, name='dispatch')
 class CreateView(CreateView):
     model = Vat
-    template_name = 'vat\create.html'
+    template_name = 'vat/create.html'
     fields = ['code', 'description', 'rate', 'effectivedatefrom', 'effectivedateto']
 
     def form_valid(self, form):
@@ -39,7 +39,7 @@ class CreateView(CreateView):
 @method_decorator(login_required, name='dispatch')
 class UpdateView(UpdateView):
     model = Vat
-    template_name = 'vat\edit.html'
+    template_name = 'vat/edit.html'
     fields = ['code', 'description', 'rate', 'effectivedatefrom', 'effectivedateto']
 
     def form_valid(self, form):
@@ -53,7 +53,7 @@ class UpdateView(UpdateView):
 @method_decorator(login_required, name='dispatch')
 class DeleteView(DeleteView):
     model = Vat
-    template_name = 'vat\delete.html'
+    template_name = 'vat/delete.html'
 
     def delete(self, request, *args, **kwargs):
         self.object = self.get_object()
