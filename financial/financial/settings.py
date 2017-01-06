@@ -37,16 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bank', 
 	'vat', 
 	'wtax', 
 	'mainunit',
     'unit', 
 	'typeofexpense', 
-	'currency',
-    'industry', 
-	'bankaccounttype', 
-	'bankaccount',
+	#'currency',
+    #'industry',
+	#'bankaccounttype',
+	#'bankaccount',
     'mainproduct',
     'product',
     'ataxcode',
@@ -54,7 +53,6 @@ INSTALLED_APPS = [
     'inputvattype',
     'kindofexpense',
     'mistype',
-    'bankbranch',
 ]
 
 MIDDLEWARE_CLASSES = [

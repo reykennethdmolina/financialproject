@@ -8,13 +8,8 @@ import datetime
 
 @method_decorator(login_required, name='dispatch')
 class IndexView(ListView):
-<<<<<<< HEAD:financial/bank/views.py
-    model = Bank
-    template_name = 'bank/index.html'
-=======
     model = Inputvattype
     template_name = 'inputvattype/index.html'
->>>>>>> refs/remotes/origin/xtrap029-patch-1:financial/inputvattype/views.py
     context_object_name = 'data_list'
 
     def get_queryset(self):
@@ -23,15 +18,6 @@ class IndexView(ListView):
 
 @method_decorator(login_required, name='dispatch')
 class DetailView(DetailView):
-<<<<<<< HEAD:financial/bank/views.py
-    model = Bank
-    template_name = 'bank/detail.html'
-
-@method_decorator(login_required, name='dispatch')
-class CreateView(CreateView):
-    model = Bank
-    template_name = 'bank/create.html'
-=======
     model = Inputvattype
     template_name = 'inputvattype/detail.html'
 
@@ -40,7 +26,6 @@ class CreateView(CreateView):
 class CreateView(CreateView):
     model = Inputvattype
     template_name = 'inputvattype/create.html'
->>>>>>> refs/remotes/origin/xtrap029-patch-1:financial/inputvattype/views.py
     fields = ['code', 'description']
 
     def form_valid(self, form):
@@ -53,13 +38,8 @@ class CreateView(CreateView):
 
 @method_decorator(login_required, name='dispatch')
 class UpdateView(UpdateView):
-<<<<<<< HEAD:financial/bank/views.py
-    model = Bank
-    template_name = 'bank/edit.html'
-=======
     model = Inputvattype
     template_name = 'inputvattype/edit.html'
->>>>>>> refs/remotes/origin/xtrap029-patch-1:financial/inputvattype/views.py
     fields = ['code', 'description']
 
     def form_valid(self, form):
@@ -67,14 +47,6 @@ class UpdateView(UpdateView):
         self.object.modifyby = self.request.user
         self.object.modifydate = datetime.datetime.now()
         self.object.save()
-<<<<<<< HEAD:financial/bank/views.py
-        return HttpResponseRedirect('/bank')
-
-@method_decorator(login_required, name='dispatch')
-class DeleteView(DeleteView):
-    model = Bank
-    template_name = 'bank/delete.html'
-=======
         return HttpResponseRedirect('/inputvattype')
 
 
@@ -82,7 +54,6 @@ class DeleteView(DeleteView):
 class DeleteView(DeleteView):
     model = Inputvattype
     template_name = 'inputvattype/delete.html'
->>>>>>> refs/remotes/origin/xtrap029-patch-1:financial/inputvattype/views.py
 
     def delete(self, request, *args, **kwargs):
         self.object = self.get_object()
