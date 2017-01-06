@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'inputvattype',
     'kindofexpense',
     'mistype',
+    'bank',
 ]
 
 MIDDLEWARE_CLASSES = [

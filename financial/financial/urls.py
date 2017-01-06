@@ -50,6 +50,7 @@ urlpatterns = [
     url(r'^inputvattype/', include('inputvattype.urls', namespace='inputvattype')),
     url(r'^kindofexpense/', include('kindofexpense.urls', namespace='kindofexpense')),
     url(r'^mistype/', include('mistype.urls', namespace='mistype')),
+    url(r'^bank/', include('bank.urls', namespace='bank')),
 
     # Login/Logout URLs
     url(r'^login/$', login, {'template_name': 'login.html'}),
