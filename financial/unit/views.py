@@ -11,7 +11,7 @@ import datetime
 @method_decorator(login_required, name='dispatch')
 class IndexView(ListView):
     model = Unit
-    template_name = 'unit\index.html'
+    template_name = 'unit/index.html'
     context_object_name = 'data_list'
 
     def get_queryset(self):
@@ -21,13 +21,13 @@ class IndexView(ListView):
 @method_decorator(login_required, name='dispatch')
 class DetailView(DetailView):
     model = Unit
-    template_name = 'unit\detail.html'
+    template_name = 'unit/detail.html'
 
 
 @method_decorator(login_required, name='dispatch')
 class CreateView(CreateView):
     model = Unit
-    template_name = 'unit\create.html'
+    template_name = 'unit/create.html'
     fields = ['code', 'description', 'mainunit']
 
     def form_valid(self, form):
@@ -46,7 +46,7 @@ class CreateView(CreateView):
 @method_decorator(login_required, name='dispatch')
 class UpdateView(UpdateView):
     model = Unit
-    template_name = 'unit\edit.html'
+    template_name = 'unit/edit.html'
     fields = ['code', 'description', 'mainunit']
 
     def form_valid(self, form):
@@ -65,7 +65,7 @@ class UpdateView(UpdateView):
 @method_decorator(login_required, name='dispatch')
 class DeleteView(DeleteView):
     model = Unit
-    template_name = 'unit\delete.html'
+    template_name = 'unit/delete.html'
 
     def delete(self, request, *args, **kwargs):
         self.object = self.get_object()
