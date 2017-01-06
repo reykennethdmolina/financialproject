@@ -49,6 +49,12 @@ INSTALLED_APPS = [
 	'bankaccount',
     'mainproduct',
     'product',
+    'ataxcode',
+    'inputvat',
+    'inputvattype',
+    'kindofexpense',
+    'mistype',
+    'bankbranch',
 ]
 
 MIDDLEWARE_CLASSES = [
