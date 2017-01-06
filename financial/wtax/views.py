@@ -9,7 +9,7 @@ import datetime
 @method_decorator(login_required, name='dispatch')
 class IndexView(ListView):
     model = Wtax
-    template_name = 'wtax\index.html'
+    template_name = 'wtax/index.html'
     context_object_name = 'data_list'
 
     def get_queryset(self):
@@ -19,13 +19,13 @@ class IndexView(ListView):
 @method_decorator(login_required, name='dispatch')
 class DetailView(DetailView):
     model = Wtax
-    template_name = 'wtax\detail.html'
+    template_name = 'wtax/detail.html'
 
 
 @method_decorator(login_required, name='dispatch')
 class CreateView(CreateView):
     model = Wtax
-    template_name = 'wtax\create.html'
+    template_name = 'wtax/create.html'
     fields = ['code', 'description', 'rate', 'wtaxtype_id', 'wtaxchartofaccount_id']
 
     def form_valid(self, form):
@@ -39,7 +39,7 @@ class CreateView(CreateView):
 @method_decorator(login_required, name='dispatch')
 class UpdateView(UpdateView):
     model = Wtax
-    template_name = 'wtax\edit.html'
+    template_name = 'wtax/edit.html'
     fields = ['code', 'description', 'rate', 'wtaxtype_id', 'wtaxchartofaccount_id']
 
     def form_valid(self, form):
@@ -53,7 +53,7 @@ class UpdateView(UpdateView):
 @method_decorator(login_required, name='dispatch')
 class DeleteView(DeleteView):
     model = Wtax
-    template_name = 'wtax\delete.html'
+    template_name = 'wtax/delete.html'
 
     def delete(self, request, *args, **kwargs):
         self.object = self.get_object()
