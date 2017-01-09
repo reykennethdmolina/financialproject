@@ -32,6 +32,7 @@ urlpatterns = [
     # Apps URLS
     url(r'^mainproduct/', include('mainproduct.urls', namespace='mainproduct')),
     url(r'^product/', include('product.urls', namespace='product')),
+    url(r'^adtype/', include('adtype.urls', namespace='adtype')),
 
     # Apps Grace
     url(r'^vat/', include('vat.urls', namespace='vat')),
