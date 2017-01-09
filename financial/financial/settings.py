@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'kindofexpense',
     'mistype',
     'bank',
+    'adtype',
 ]
 
 MIDDLEWARE_CLASSES = [
