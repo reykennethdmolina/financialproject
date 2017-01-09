@@ -27,7 +27,7 @@
                         <div class="form-group">
                             <label for="id_rate" class="control-label">Rate</label>
                             <input type="text" class="form-control rate" id="id_rate" name="rate" value={{ form.rate.value|default:"0" }}>
-                            <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
+                            <span class="help-block form-error">{{ form.rate.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
                             <table border="0">
@@ -36,14 +36,14 @@
                                         <label for="id_effectivedatefrom" class="control-label">Effective Date FROM</label>
                                         <input type="text" class="form-control date-yyyymmdd datepickerfrom" id="id_effectivedatefrom"
                                                name="effectivedatefrom" data-validation="required" value={{ form.effectivedatefrom.value|date:"Y-m-d"|default:"" }}>
-                                        <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
+                                        <span class="help-block form-error">{{ form.effectivedatefrom.errors.as_text }}</span>
                                     </td>
                                     <td width="100px"></td>
                                     <td width="400px">
                                         <label for="id_effectivedateto" class="control-label">TO</label>
                                         <input type="text" class="form-control date-yyyymmdd datepickerto" id="id_effectivedateto"
                                                name="effectivedateto" data-validation="required" value={{ form.effectivedateto.value|date:"Y-m-d"|default:"" }}>
-                                        <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
+                                        <span class="help-block form-error">{{ form.effectivedateto.errors.as_text }}</span>
                                     </td>
                                 </tr>
                             </table>
