@@ -32,6 +32,7 @@ urlpatterns = [
     # Apps URLS
     url(r'^mainproduct/', include('mainproduct.urls', namespace='mainproduct')),
     url(r'^product/', include('product.urls', namespace='product')),
+    url(r'^adtype/', include('adtype.urls', namespace='adtype')),
 
     # Apps Grace
     url(r'^vat/', include('vat.urls', namespace='vat')),
@@ -50,6 +51,7 @@ urlpatterns = [
     url(r'^inputvattype/', include('inputvattype.urls', namespace='inputvattype')),
     url(r'^kindofexpense/', include('kindofexpense.urls', namespace='kindofexpense')),
     url(r'^mistype/', include('mistype.urls', namespace='mistype')),
+    url(r'^bank/', include('bank.urls', namespace='bank')),
 
     # Login/Logout URLs
     url(r'^login/$', login, {'template_name': 'login.html'}),
