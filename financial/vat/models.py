@@ -28,6 +28,7 @@ class Vat(models.Model):
     class Meta:
         db_table = 'vat'
         ordering = ['-pk']
+        permissions = (("view_vat", "Can view vat"),)
 
     def get_absolute_url(self):
         return reverse('vat:detail', kwargs={'pk': self.pk})

@@ -6,7 +6,9 @@
     <div class="panel-body container-fluid">
         <div class="row">
             <div class="col-md-12">
+                {% if perms.vat.add_vat %}
                 <div class="text-right"><a href="{% url 'vat:create' %}"><button type="button" class="btn btn-info btn-sm waves-effect waves-light">New Data</button></a></div>
+                {% endif  %}
             </div>
             <div class="col-md-12">
                 <div class="page-wrap">
@@ -34,11 +36,15 @@
                                             <a href="{% url 'vat:detail' data.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to View" title="" aria-describedby="tooltip850155">
                                                 <i class="icon md-view-list" aria-hidden="true">&nbsp;&nbsp;</i>
                                             </a>
+                                            {% if perms.vat.change_vat %}
                                             <a href="{% url 'vat:update' data.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to Edit" title="" aria-describedby="tooltip850155">
                                                 <i class="icon md-edit" aria-hidden="true">&nbsp;&nbsp;</i>
                                             </a>
+                                            {% endif %}
+                                            {% if perms.vat.delete_vat %}
                                             <a href="{% url 'vat:delete' data.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to Delete" title="" aria-describedby="tooltip850155">
                                                 <i class="icon md-delete" aria-hidden="true">&nbsp;&nbsp;</i>
+                                            {% endif %}
                                             </a>
                                             </div>
                                         </div>
