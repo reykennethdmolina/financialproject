@@ -55,6 +55,11 @@ INSTALLED_APPS = [
     'mistype',
     'bank',
     'adtype',
+    'bankbranch',
+    'branch',
+    'mainmodule',
+    'module',
+    'chartofaccount',
 ]
 
 MIDDLEWARE_CLASSES = [

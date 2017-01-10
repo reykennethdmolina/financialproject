@@ -29,6 +29,7 @@ class Ataxcode(models.Model):
     class Meta:
         db_table = 'ataxcode'
         ordering = ['-pk']
+        permissions = (("view_ataxcode", "Can view ataxcode"),)
 
     def get_absolute_url(self):
         return reverse('ataxcode:detail', kwargs={'pk': self.pk})

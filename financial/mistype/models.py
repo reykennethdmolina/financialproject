@@ -28,6 +28,7 @@ class Mistype(models.Model):
     class Meta:
         db_table = 'mistype'
         ordering = ['-pk']
+        permissions = (("view_mistype", "Can view mistype"),)
 
     def get_absolute_url(self):
         return reverse('mistype:detail', kwargs={'pk': self.pk})

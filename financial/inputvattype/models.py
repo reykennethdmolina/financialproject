@@ -25,6 +25,7 @@ class Inputvattype(models.Model):
     class Meta:
         db_table = 'inputvattype'
         ordering = ['-pk']
+        permissions = (("view_inputvattype", "Can view inputvattype"),)
 
     def get_absolute_url(self):
         return reverse('inputvattype:detail', kwargs={'pk': self.pk})
