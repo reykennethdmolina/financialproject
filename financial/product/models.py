@@ -30,6 +30,7 @@ class Product(models.Model):
     class Meta:
         db_table = 'product'
         ordering = ['-pk']
+        permissions = (("view_product", "Can view product"),)
 
     def get_absolute_url(self):
         return reverse('product:detail', kwargs={'pk': self.pk})

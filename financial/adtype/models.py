@@ -25,6 +25,7 @@ class Adtype(models.Model):
     class Meta:
         db_table = 'adtype'
         ordering = ['-pk']
+        permissions = (("view_adtype", "Can view adtype"),)
 
     def get_absolute_url(self):
         return reverse('adtype:detail', kwargs={'pk': self.pk})
