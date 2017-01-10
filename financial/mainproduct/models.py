@@ -24,6 +24,7 @@ class Mainproduct(models.Model):
     class Meta:
         db_table = 'mainproduct'
         ordering = ['-pk']
+        permissions = (("view_mainproduct", "Can view mainproduct"),)
 
     def get_absolute_url(self):
         return reverse('mainproduct:detail', kwargs={'pk': self.pk})
