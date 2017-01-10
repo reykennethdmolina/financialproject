@@ -1,7 +1,7 @@
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, Http404
 from adtype.models import Adtype
 import datetime
 
@@ -28,6 +28,11 @@ class CreateView(CreateView):
     template_name = 'adtype/create.html'
     fields = ['code', 'description']
 
+    def dispatch(self, request, *args, **kwargs):
+        if not request.user.has_perm('adtype.add_adtype'):
+            raise Http404
+        return super(CreateView, self).dispatch(request, *args, **kwargs)
+
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.enterby = self.request.user
@@ -42,6 +47,11 @@ class UpdateView(UpdateView):
     template_name = 'adtype/edit.html'
     fields = ['code', 'description']
 
+    def dispatch(self, request, *args, **kwargs):
+        if not request.user.has_perm('adtype.change_adtype'):
+            raise Http404
+        return super(UpdateView, self).dispatch(request, *args, **kwargs)
+
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.modifyby = self.request.user
@@ -54,6 +64,11 @@ class UpdateView(UpdateView):
 class DeleteView(DeleteView):
     model = Adtype
     template_name = 'adtype/delete.html'
+
+    def dispatch(self, request, *args, **kwargs):
+        if not request.user.has_perm('adtype.delete_adtype'):
+            raise Http404
+        return super(DeleteView, self).dispatch(request, *args, **kwargs)
 
     def delete(self, request, *args, **kwargs):
         self.object = self.get_object()
