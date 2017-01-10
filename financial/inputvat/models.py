@@ -29,6 +29,7 @@ class Inputvat(models.Model):
     class Meta:
         db_table = 'inputvat'
         ordering = ['-pk']
+        permissions = (("view_inputvat", "Can view inputvat"),)
 
     def get_absolute_url(self):
         return reverse('inputvat:detail', kwargs={'pk': self.pk})
