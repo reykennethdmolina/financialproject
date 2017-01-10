@@ -1,7 +1,7 @@
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, Http404
 from product.models import Product
 from mainproduct.models import Mainproduct
 import datetime
@@ -28,6 +28,11 @@ class CreateView(CreateView):
     template_name = 'product/create.html'
     fields = ['code', 'description', 'mainproduct', 'cmsgroup_id', 'pagecount']
 
+    def dispatch(self, request, *args, **kwargs):
+        if not request.user.has_perm('product.add_product'):
+            raise Http404
+        return super(CreateView, self).dispatch(request, *args, **kwargs)
+
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.enterby = self.request.user
@@ -47,6 +52,11 @@ class UpdateView(UpdateView):
     template_name = 'product/edit.html'
     fields = ['code', 'description', 'mainproduct', 'cmsgroup_id', 'pagecount']
 
+    def dispatch(self, request, *args, **kwargs):
+        if not request.user.has_perm('product.change_product'):
+            raise Http404
+        return super(UpdateView, self).dispatch(request, *args, **kwargs)
+
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.modifyby = self.request.user
@@ -64,6 +74,11 @@ class UpdateView(UpdateView):
 class DeleteView(DeleteView):
     model = Product
     template_name = 'product/delete.html'
+
+    def dispatch(self, request, *args, **kwargs):
+        if not request.user.has_perm('product.delete_product'):
+            raise Http404
+        return super(DeleteView, self).dispatch(request, *args, **kwargs)
 
     def delete(self, request, *args, **kwargs):
         self.object = self.get_object()

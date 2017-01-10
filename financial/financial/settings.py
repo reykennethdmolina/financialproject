@@ -55,6 +55,11 @@ INSTALLED_APPS = [
     'mistype',
     'bank',
     'adtype',
+    'bankbranch',
+    'branch',
+    'mainmodule',
+    'module',
+    'chartofaccount',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -158,3 +163,4 @@ MEDIA_URL = '/media/'
 
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/login/'
+LOGOUT_URL = '/logout/'

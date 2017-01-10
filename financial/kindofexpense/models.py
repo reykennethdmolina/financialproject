@@ -25,6 +25,7 @@ class Kindofexpense(models.Model):
     class Meta:
         db_table = 'kindofexpense'
         ordering = ['-pk']
+        permissions = (("view_kindofexpense", "Can view kindofexpense"),)
 
     def get_absolute_url(self):
         return reverse('kindofexpense:detail', kwargs={'pk': self.pk})
