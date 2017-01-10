@@ -54,6 +54,11 @@ urlpatterns = [
     url(r'^kindofexpense/', include('kindofexpense.urls', namespace='kindofexpense')),
     url(r'^mistype/', include('mistype.urls', namespace='mistype')),
     url(r'^bank/', include('bank.urls', namespace='bank')),
+    url(r'^bankbranch/', include('bankbranch.urls', namespace='bankbranch')),
+    url(r'^branch/', include('branch.urls', namespace='branch')),
+    url(r'^mainmodule/', include('mainmodule.urls', namespace='mainmodule')),
+    url(r'^module/', include('module.urls', namespace='module')),
+    url(r'^chartofaccount/', include('chartofaccount.urls', namespace='chartofaccount')),
 
     # Login/Logout URLs
     url(r'^login/$', login, {'template_name': 'login.html'}),

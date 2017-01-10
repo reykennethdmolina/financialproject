@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
     'vat',
     'wtax',
     'mainunit',
@@ -55,9 +56,13 @@ INSTALLED_APPS = [
     'mistype',
     'bank',
     'adtype',
+    'bankbranch',
+    'branch',
+    'mainmodule',
+    'module',
+    'chartofaccount',
     'cvtype',
     'aptype',
-    'django.contrib.humanize',
 ]
 
 MIDDLEWARE_CLASSES = [

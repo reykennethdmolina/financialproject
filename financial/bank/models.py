@@ -25,6 +25,7 @@ class Bank(models.Model):
     class Meta:
         db_table = 'bank'
         ordering = ['-pk']
+        permissions = (("view_bank", "Can view bank"),)
 
     def get_absolute_url(self):
         return reverse('bank:detail', kwargs={'pk': self.pk})
