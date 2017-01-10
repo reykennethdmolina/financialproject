@@ -28,6 +28,7 @@ class Wtax(models.Model):
     class Meta:
         db_table = 'wtax'
         ordering = ['-pk']
+        permissions = (("view_wtax", "Can view wtax"),)
 
     def get_absolute_url(self):
         return reverse('wtax:detail', kwargs={'pk': self.pk})

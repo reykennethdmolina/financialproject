@@ -26,6 +26,7 @@ class Mainunit(models.Model):
     class Meta:
         db_table = 'mainunit'
         ordering = ['-pk']
+        permissions = (("view_mainunit", "Can view mainunit"),)
 
     def get_absolute_url(self):
         return reverse('mainunit:detail', kwargs={'pk': self.pk})

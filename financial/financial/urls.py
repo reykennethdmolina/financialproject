@@ -40,10 +40,12 @@ urlpatterns = [
     url(r'^mainunit/', include('mainunit.urls', namespace='mainunit')),
     url(r'^unit/', include('unit.urls', namespace='unit')),
     url(r'^typeofexpense/', include('typeofexpense.urls', namespace='typeofexpense')),
-    #url(r'^currency/', include('currency.urls', namespace='currency')),
-    #url(r'^industry/', include('industry.urls', namespace='industry')),
-    #url(r'^bankaccounttype/', include('bankaccounttype.urls', namespace='bankaccounttype')),
-    #url(r'^bankaccount/', include('bankaccount.urls', namespace='bankaccount')),
+    url(r'^currency/', include('currency.urls', namespace='currency')),
+    url(r'^industry/', include('industry.urls', namespace='industry')),
+    url(r'^bankaccounttype/', include('bankaccounttype.urls', namespace='bankaccounttype')),
+    url(r'^cvtype/', include('cvtype.urls', namespace='cvtype')),
+    url(r'^aptype/', include('aptype.urls', namespace='aptype')),
+    url(r'^bankaccount/', include('bankaccount.urls', namespace='bankaccount')),
 
     # Apps Kelvin
     url(r'^ataxcode/', include('ataxcode.urls', namespace='ataxcode')),
