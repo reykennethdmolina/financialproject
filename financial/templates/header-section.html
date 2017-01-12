@@ -2,11 +2,10 @@
 {#{% for test in test %}#}
 {#    {{ test.content_type.model }}#}
 {#{% endfor %}#}
-{#<pre>#}
 {#{{ userpermission }}#}
 {#</pre>#}
-{#{% for key, value in userpermission.items %}#}
-{#    {{ key }}#}
+{#{% for key, value, data in userpermission.items %}#}
+{#    {{ key }} {{ value.0 }}#}
 {#    {% for item, data in value %}#}
 {#        {{ item.app_label }} {{ item.modulename }}#}
 {#    {% endfor %}#}
@@ -17,8 +16,6 @@
 {#        {{ x }} : {{ y }}#}
 {#    {% endfor %}#}
 {#{% endfor %}#}
-<br>
-
 <div class="main-header navbar navbar-default navbar-fixed-top navbar-inverse navbar-mega">
    <div class="navbar-header">
       <!--  Template Logo -->
@@ -41,9 +38,9 @@
                         </a>
                      </div>
                   </li>
-                    {% for key, value in userpermission.items %}
+                    {% for key, value, data in userpermission.items %}
                         <li>
-                            <a class="waves-effect waves-light" href="javascript:void(0)"> <i class="layout-icon icon_archive_alt" aria-hidden="true"></i> {{ key }} <span class="arrow_carrot-down" aria-hidden="true"></span></a>
+                            <a class="waves-effect waves-light" href="javascript:void(0)"> <i class="layout-icon {{ value.0 }}" aria-hidden="true"></i> {{ key }} <span class="arrow_carrot-down" aria-hidden="true"></span></a>
                                 <ul class="utmenu-submenu">
                                 {% for item, data in value %}
                                     <li><a class="waves-effect waves-light" href="/{{item.app_label}}/">{{ item.modulename }}</a></li>
