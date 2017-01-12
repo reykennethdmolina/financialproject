@@ -3,7 +3,6 @@ from django.contrib.auth.models import Permission
 from django.db import connection
 from collections import namedtuple, defaultdict, OrderedDict
 from itertools import groupby
-from django_pandas.io import read_frame
 
 def usermodule(request):
     userid = request.user.id
