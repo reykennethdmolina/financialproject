@@ -14,7 +14,7 @@
                         {% csrf_token %}
                         <div class="form-group {{ form.code.errors|yesno:'has-error,' }}">
                             <label for="id_code" class="control-label">Code</label>
-                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" value={{ form.code.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" value="{{ form.code.value|default:'' }}">
                             <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
@@ -25,12 +25,12 @@
                         </div>
                         <div class="form-group">
                             <label for="id_lastsino" class="control-label">Last SI no.</label>
-                            <input type="text" class="form-control" id="id_lastsino" maxlength="10" placeholder="Last SI no." name="lastsino" value={{ form.lastsino.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_lastsino" maxlength="10" placeholder="Last SI no." name="lastsino" value="{{ form.lastsino.value|default:'' }}">
                             <span class="help-block form-error">{{ form.lastsino.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
                             <label for="id_lastorno" class="control-label">Last OR no.</label>
-                            <input type="text" class="form-control" id="id_lastorno" maxlength="10" placeholder="Lst OR no." name="lastorno"  value={{ form.lastorno.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_lastorno" maxlength="10" placeholder="Lst OR no." name="lastorno"  value="{{ form.lastorno.value|default:'' }}">
                             <span class="help-block form-error">{{ form.lastorno.errors.as_text }}</span>
                         </div>
                         <div class="form-group margin-bottom-0">
