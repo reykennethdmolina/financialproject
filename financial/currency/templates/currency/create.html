@@ -14,7 +14,7 @@
                         {% csrf_token %}
                         <div class="form-group {{ form.code.errors|yesno:'has-error,' }}">
                             <label for="id_code" class="control-label">Code</label>
-                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" value={{ form.code.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" value="{{ form.code.value|default:'' }}">
                             <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
@@ -25,11 +25,11 @@
                         </div>
                         <div class="form-group">
                             <label for="id_code" class="control-label">Symbol</label>
-                            <input type="text" class="form-control" id="id_symbol" maxlength="10" placeholder="Symbol" name="symbol" data-validation="required" value={{ form.symbol.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_symbol" maxlength="10" placeholder="Symbol" name="symbol" data-validation="required" value="{{ form.symbol.value|default:'' }}">
                         </div>
                         <div class="form-group">
                             <label for="id_country" class="control-label">Country</label>
-                            <input type="text" class="form-control" id="id_country" maxlength="250" placeholder="Country" name="country" data-validation="required" value={{ form.country.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_country" maxlength="250" placeholder="Country" name="country" data-validation="required" value="{{ form.country.value|default:'' }}">
                         </div>
                         <div class="form-group margin-bottom-0">
                             <button type="submit" class="btn btn-info" id="validateButton">Submit</button>

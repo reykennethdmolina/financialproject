@@ -15,17 +15,17 @@
                         {% csrf_token %}
                         <div class="form-group">
                             <label for="id_wtaxtype_id" class="control-label">Withholding Tax Type ID</label>
-                            <input type="text" class="form-control" id="id_wtaxtype_id" name="wtaxtype_id" data-validation="number" value={{ form.wtaxtype_id.value|default:"0" }}>
+                            <input type="text" class="form-control" id="id_wtaxtype_id" name="wtaxtype_id" data-validation="number" value="{{ form.wtaxtype_id.value|default:'0' }}">
                             <span class="help-block form-error">{{ form.wtaxtype_id.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
                             <label for="id_wtaxchartofaccount_id" class="control-label">Withholding Tax Chart of Account ID</label>
-                            <input type="text" class="form-control" id="id_wtaxchartofaccount_id" name="wtaxchartofaccount_id" data-validation="number" value={{ form.wtaxchartofaccount_id.value|default:"0" }}>
+                            <input type="text" class="form-control" id="id_wtaxchartofaccount_id" name="wtaxchartofaccount_id" data-validation="number" value="{{ form.wtaxchartofaccount_id.value|default:'0' }}">
                             <span class="help-block form-error">{{ form.wtaxchartofaccount_id.errors.as_text }}</span>
                         </div>
                         <div class="form-group {{ form.code.errors|yesno:'has-error,' }}">
                             <label for="id_code" class="control-label">Code</label>
-                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" readonly="readonly" value={{ form.code.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" readonly="readonly" value="{{ form.code.value|default:'' }}">
                             <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
@@ -36,7 +36,7 @@
                         </div>
                         <div class="form-group">
                             <label for="id_rate" class="control-label">Rate</label>
-                            <input type="text" class="form-control rate" id="id_rate" name="rate" value={{ form.rate.value|default:"0" }}>
+                            <input type="text" class="form-control rate" id="id_rate" name="rate" value="{{ form.rate.value|default:'0' }}">
                             <span class="help-block form-error">{{ form.rate.errors.as_text }}</span>
                         </div>
                         <div class="form-group margin-bottom-0">
