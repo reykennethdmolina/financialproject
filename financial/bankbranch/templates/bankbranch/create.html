@@ -25,7 +25,7 @@
                             </div>
                             <div class="form-group {{ form.code.errors|yesno:'has-error,' }}">
                                 <label for="id_code" class="control-label">Code</label>
-                                <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" value={{ form.code.value|default:"" }}>
+                                <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" value="{{ form.code.value|default:'' }}">
                                 <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
                             </div>
                             <div class="form-group">
@@ -39,36 +39,36 @@
                         <div class="page-wrap">
                             <div class="form-group">
                                 <label class="control-label" for="id_address">Address</label>
-                                <input type="text" class="form-control" id="id_address" maxlength="250" placeholder="Address" name="address" value={{ form.address.value|default:"" }}>
+                                <input type="text" class="form-control" id="id_address" maxlength="250" placeholder="Address" name="address" value="{{ form.address.value|default:'' }}">
                                 <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label class="control-label" for="id_contact_person">Contact Person</label>
-                                    <input type="text" class="form-control" id="id_contact_person" maxlength="250" placeholder="Contact Person" name="contact_person" value={{ form.contact_person.value|default:"" }}>
+                                    <input type="text" class="form-control" id="id_contact_person" maxlength="250" placeholder="Contact Person" name="contact_person" value="{{ form.contact_person.value|default:'' }}">
                                     <span class="help-block form-error">{{ form.contact_person.errors.as_text }}</span>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label class="control-label" for="id_contact_position">Contact Position</label>
-                                    <input type="text" class="form-control" id="id_contact_position" maxlength="250" placeholder="Contact Position" name="contact_position" value={{ form.contact_position.value|default:"" }}>
+                                    <input type="text" class="form-control" id="id_contact_position" maxlength="250" placeholder="Contact Position" name="contact_position" value="{{ form.contact_position.value|default:'' }}">
                                     <span class="help-block form-error">{{ form.contact_position.errors.as_text }}</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label class="control-label" for="id_telephone1">Telephone #1</label>
-                                    <input type="text" class="form-control" id="id_telephone1" maxlength="75" placeholder="Telephone #1" name="telephone1" value={{ form.telephone1.value|default:"" }}>
+                                    <input type="text" class="form-control" id="id_telephone1" maxlength="75" placeholder="Telephone #1" name="telephone1" value="{{ form.telephone1.value|default:'' }}">
                                     <span class="help-block form-error">{{ form.telephone1.errors.as_text }}</span>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label class="control-label" for="id_telephone2">Telephone #2</label>
-                                    <input type="text" class="form-control" id="id_telephone2" maxlength="75" placeholder="Telephone #2" name="telephone2" value={{ form.telephone2.value|default:"" }}>
+                                    <input type="text" class="form-control" id="id_telephone2" maxlength="75" placeholder="Telephone #2" name="telephone2" value="{{ form.telephone2.value|default:'' }}">
                                     <span class="help-block form-error">{{ form.telephone2.errors.as_text }}</span>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="control-label" for="id_remarks">Remarks</label>
-                                <input type="text" class="form-control" id="id_remarks" maxlength="250" placeholder="Remarks" name="remarks" value={{ form.remarks.value|default:"" }}>
+                                <input type="text" class="form-control" id="id_remarks" maxlength="250" placeholder="Remarks" name="remarks" value="{{ form.remarks.value|default:'' }}">
                                 <span class="help-block form-error">{{ form.remarks.errors.as_text }}</span>
                             </div>
                             <div class="form-group margin-bottom-0">
