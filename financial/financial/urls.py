@@ -59,6 +59,15 @@ urlpatterns = [
     url(r'^mainmodule/', include('mainmodule.urls', namespace='mainmodule')),
     url(r'^module/', include('module.urls', namespace='module')),
     url(r'^chartofaccount/', include('chartofaccount.urls', namespace='chartofaccount')),
+    url(r'^ofsubtype/', include('ofsubtype.urls', namespace='ofsubtype')),
+    url(r'^oftype/', include('oftype.urls', namespace='oftype')),
+    url(r'^ortype/', include('ortype.urls', namespace='ortype')),
+    url(r'^paytype/', include('paytype.urls', namespace='paytype')),
+    url(r'^potype/', include('potype.urls', namespace='potype')),
+    url(r'^serviceclassification/', include('serviceclassification.urls', namespace='serviceclassification')),
+    url(r'^productgroup/', include('productgroup.urls', namespace='productgroup')),
+    url(r'^unitofmeasure/', include('unitofmeasure.urls', namespace='unitofmeasure')),
+    url(r'^suppliertype/', include('suppliertype.urls', namespace='suppliertype')),
 
     # Login/Logout URLs
     url(r'^login/$', login, {'template_name': 'login.html'}),

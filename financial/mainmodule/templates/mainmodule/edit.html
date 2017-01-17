@@ -14,7 +14,7 @@
                         {% csrf_token %}
                         <div class="form-group {{ form.code.errors|yesno:'has-error,' }}">
                             <label for="id_code" class="control-label">Code</label>
-                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" value={{ form.code.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" value="{{ form.code.value|default:'' }}">
                             <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
@@ -25,12 +25,12 @@
                         </div>
                         <div class="form-group">
                             <label for="id_sortnumber" class="control-label">Sort number.</label>
-                            <input type="number" class="form-control rate" id="id_sortnumber" name="sortnumber" min="0" max="99"  value={{ form.sortnumber.value|default:"" }}>
+                            <input type="number" class="form-control rate" id="id_sortnumber" name="sortnumber" min="0" max="99"  value="{{ form.sortnumber.value|default:'' }}">
                             <span class="help-block form-error">{{ form.sortnumber.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
                             <label for="id_iconfile" class="control-label">Icon file</label>
-                            <input type="text" class="form-control" id="id_iconfile" maxlength="50" placeholder="Icon file" name="iconfile" value={{ form.iconfile.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_iconfile" maxlength="50" placeholder="Icon file" name="iconfile" value="{{ form.iconfile.value|default:'' }}">
                             <span class="help-block form-error">{{ form.iconfile.errors.as_text }}</span>
                         </div>
                         <div class="form-group margin-bottom-0">
