@@ -4,7 +4,6 @@ from django.utils.decorators import method_decorator
 from django.http import HttpResponseRedirect, Http404
 from inputvat.models import Inputvat
 from inputvattype.models import Inputvattype
-from chartofaccount.models import Chartofaccount
 import datetime
 
 
@@ -28,7 +27,7 @@ class DetailView(DetailView):
 class CreateView(CreateView):
     model = Inputvat
     template_name = 'inputvat/create.html'
-    fields = ['code', 'description', 'inputvattype', 'inputvatchartofaccount', 'title']
+    fields = ['code', 'description', 'inputvattype', 'inputvatchartofaccount_id', 'title']
 
     def dispatch(self, request, *args, **kwargs):
         if not request.user.has_perm('inputvat.add_inputvat'):
@@ -38,7 +37,6 @@ class CreateView(CreateView):
     def get_context_data(self, **kwargs):
         context = super(CreateView, self).get_context_data(**kwargs)
         context['inputvattype'] = Inputvattype.objects.filter(isdeleted=0).order_by('description')
-        context['inputvatchartofaccount'] = Chartofaccount.objects.filter(isdeleted=0).order_by('description')
         return context
 
     def form_valid(self, form):
@@ -53,7 +51,7 @@ class CreateView(CreateView):
 class UpdateView(UpdateView):
     model = Inputvat
     template_name = 'inputvat/edit.html'
-    fields = ['code', 'description', 'inputvattype', 'inputvatchartofaccount', 'title']
+    fields = ['code', 'description', 'inputvattype', 'inputvatchartofaccount_id', 'title']
 
     def dispatch(self, request, *args, **kwargs):
         if not request.user.has_perm('inputvat.change_inputvat'):
@@ -63,7 +61,6 @@ class UpdateView(UpdateView):
     def get_context_data(self, **kwargs):
         context = super(UpdateView, self).get_context_data(**kwargs)
         context['inputvattype'] = Inputvattype.objects.filter(isdeleted=0).order_by('description')
-        context['inputvatchartofaccount'] = Chartofaccount.objects.filter(isdeleted=0).order_by('description')
         return context
 
     def form_valid(self, form):

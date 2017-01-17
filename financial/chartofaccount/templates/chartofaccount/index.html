@@ -6,9 +6,7 @@
     <div class="panel-body container-fluid">
         <div class="row">
             <div class="col-md-12">
-                {% if perms.chartofaccount.add_chartofaccount %}
                 <div class="text-right"><a href="{% url 'chartofaccount:create' %}"><button type="button" class="btn btn-info btn-sm waves-effect waves-light">New Data</button></a></div>
-                {% endif  %}
             </div>
             <div class="col-md-12">
                 <div class="page-wrap">
@@ -19,8 +17,7 @@
                             <thead>
                                 <tr>
                                     <th><span>Id</span></th>
-                                    <th><span>Account Code</span></th>
-                                    <th><span>Title</span></th>
+                                    <th><span>Code</span></th>
                                     <th><span>Description</span></th>
                                     <th class="text-center"><span>Action</span></th>
                                 </tr>
@@ -29,8 +26,7 @@
                                 {% for data in data_list %}
                                 <tr>
                                     <td>{{ data.id }}</td>
-                                    <td>{{ data.accountcode }}</td>
-                                    <td>{{ data.title }}</td>
+                                    <td>{{ data.code }}</td>
                                     <td>{{ data.description }}</td>
                                     <td class="text-center">
                                         <div class="iconlist-wrap auto-0">
@@ -38,16 +34,12 @@
                                             <a href="{% url 'chartofaccount:detail' data.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to View" title="" aria-describedby="tooltip850155">
                                                 <i class="icon md-view-list" aria-hidden="true">&nbsp;&nbsp;</i>
                                             </a>
-                                            {% if perms.chartofaccount.change_chartofaccount %}
                                             <a href="{% url 'chartofaccount:update' data.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to Edit" title="" aria-describedby="tooltip850155">
                                                 <i class="icon md-edit" aria-hidden="true">&nbsp;&nbsp;</i>
                                             </a>
-                                            {% endif %}
-                                            {% if perms.chartofaccount.delete_chartofaccount %}
                                             <a href="{% url 'chartofaccount:delete' data.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to Delete" title="" aria-describedby="tooltip850155">
                                                 <i class="icon md-delete" aria-hidden="true">&nbsp;&nbsp;</i>
                                             </a>
-                                            {% endif %}
                                             </div>
                                         </div>
                                     </td>

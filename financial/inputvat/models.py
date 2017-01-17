@@ -10,7 +10,7 @@ class Inputvat(models.Model):
     code = models.CharField(max_length=10, unique=True)
     description = models.CharField(max_length=250)
     inputvattype = models.ForeignKey('inputvattype.Inputvattype', related_name='inputvattype_id', validators=[MinValueValidator(1)])
-    inputvatchartofaccount = models.ForeignKey('chartofaccount.Chartofaccount', related_name='chartofaccount_inputvat_id', validators=[MinValueValidator(1)])
+    inputvatchartofaccount_id = models.IntegerField(default=0, null=True)
     title = models.CharField(max_length=50, null=True, blank=True)
     STATUS_CHOICES = (
         ('A', 'Active'),
