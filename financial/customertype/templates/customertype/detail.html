@@ -1,5 +1,5 @@
 {% extends 'base-form.html' %}
-{% block page-title %} ATAX Code {% endblock page-title %}
+{% block page-title %} Customer Type {% endblock page-title %}
 
 {% block page-content %}
 <div class="page-content container-fluid page">
@@ -26,24 +26,6 @@
                                         <div class="first-name-profile">
                                             <span class="text-name-profile text-info">Description : </span>
                                             <span class="detail-profile">{{ object.description }}</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Rate : </span>
-                                            <span class="detail-profile">{{ object.rate }}</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Remarks : </span>
-                                            <span class="detail-profile">{{ object.remarks }}</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Others : </span>
-                                            <span class="detail-profile">{{ object.others }}</span>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
@@ -77,15 +59,15 @@
                         </div>
                         <div class="master-degree">
                             <div class="iconlist">
-                            {% if perms.ataxcode.change_ataxcode %}
-                            <a href="{% url 'ataxcode:update' object.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to Edit" title="" aria-describedby="tooltip850155">
+                            {% if perms.customertype.change_customertype %}
+                            <a href="{% url 'customertype:update' object.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to Edit" title="" aria-describedby="tooltip850155">
                                 <button type="button" class="btn btn-floating btn-success btn-sm waves-effect waves-float waves-light">
                                     <i class="icon_pencil" aria-hidden="true"></i>
                                 </button>
                             </a>
                             {% endif %}
-                            {% if perms.ataxcode.delete_ataxcode %}
-                            <a href="{% url 'ataxcode:delete' object.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to Delete" title="" aria-describedby="tooltip850155">
+                            {% if perms.customertype.delete_customertype %}
+                            <a href="{% url 'customertype:delete' object.pk %}" data-toggle="tooltip" data-placement="right" data-trigger="hover" data-original-title="Click to Delete" title="" aria-describedby="tooltip850155">
                                 <button type="button" class="btn btn-floating btn-danger btn-sm waves-effect waves-float waves-light">
                                     <i class="icon_trash" aria-hidden="true"></i>
                                 </button>

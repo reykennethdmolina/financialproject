@@ -46,6 +46,9 @@ urlpatterns = [
     url(r'^cvtype/', include('cvtype.urls', namespace='cvtype')),
     url(r'^aptype/', include('aptype.urls', namespace='aptype')),
     url(r'^bankaccount/', include('bankaccount.urls', namespace='bankaccount')),
+    url(r'^customertype/', include('customertype.urls', namespace='customertype')),
+    url(r'^creditterm/', include('creditterm.urls', namespace='creditterm')),
+    url(r'^customer/', include('customer.urls', namespace='customer')),
 
     # Apps Kelvin
     url(r'^ataxcode/', include('ataxcode.urls', namespace='ataxcode')),
