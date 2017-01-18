@@ -4,6 +4,7 @@ from django.utils.decorators import method_decorator
 from django.http import HttpResponseRedirect, Http404
 from module.models import Module
 from mainmodule.models import Mainmodule
+from django.contrib.contenttypes.models import ContentType
 import datetime
 
 
@@ -27,7 +28,7 @@ class DetailView(DetailView):
 class CreateView(CreateView):
     model = Module
     template_name = 'module/create.html'
-    fields = ['code', 'description', 'mainmodule', 'name', 'segment']
+    fields = ['code', 'description', 'mainmodule', 'django_content_type', 'name', 'segment']
 
     def dispatch(self, request, *args, **kwargs):
         if not request.user.has_perm('module.add_module'):
@@ -37,6 +38,7 @@ class CreateView(CreateView):
     def get_context_data(self, **kwargs):
         context = super(CreateView, self).get_context_data(**kwargs)
         context['mainmodule'] = Mainmodule.objects.filter(isdeleted=0).order_by('description')
+        context['django_content_type'] = ContentType.objects.exclude(pk__in=[1, 2, 3, 4, 5, 6]).order_by('app_label')
         return context
 
     def form_valid(self, form):
@@ -51,7 +53,7 @@ class CreateView(CreateView):
 class UpdateView(UpdateView):
     model = Module
     template_name = 'module/edit.html'
-    fields = ['code', 'description', 'mainmodule', 'name', 'segment']
+    fields = ['code', 'description', 'mainmodule', 'django_content_type', 'name', 'segment']
 
     def dispatch(self, request, *args, **kwargs):
         if not request.user.has_perm('module.change_module'):
@@ -61,6 +63,7 @@ class UpdateView(UpdateView):
     def get_context_data(self, **kwargs):
         context = super(UpdateView, self).get_context_data(**kwargs)
         context['mainmodule'] = Mainmodule.objects.filter(isdeleted=0).order_by('description')
+        context['django_content_type'] = ContentType.objects.exclude(pk__in=[1, 2, 3, 4, 5, 6]).order_by('app_label')
         return context
 
     def form_valid(self, form):

@@ -63,6 +63,18 @@ INSTALLED_APPS = [
     'chartofaccount',
     'cvtype',
     'aptype',
+    'ofsubtype',
+    'oftype',
+    'ortype',
+    'paytype',
+    'potype',
+    'serviceclassification',
+    'productgroup',
+    'unitofmeasure',
+    'suppliertype',
+    'customertype',
+    'creditterm',
+    'customer',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -92,6 +104,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
+                'financial.context_processors.usermodule',
             ],
         },
     },
