@@ -65,5 +65,9 @@
         'pattern': '({{999}}) {{999}}-{{9999}}',
         'persistent': true
     });
+    $('.tinNumber').formatter({
+        'pattern': '{{999}}-{{999}}-{{999}}-{{999}}',
+        'persistent': true
+    });
 
 }(window, document, jQuery);
