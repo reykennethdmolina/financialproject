@@ -51,7 +51,7 @@
                                     <div class="col-md-12 col-sm-12 col-xs-12">
                                         <div class="first-name-profile">
                                             <span class="text-name-profile text-info">Chart of Account : </span>
-                                            <span class="detail-profile">{{ object.chartofaccount_id }}</span>
+                                            <span class="detail-profile">{{ object.chartofaccount.title }} - {{ object.chartofaccount.description }} ({{ object.chartofaccount.accountcode }})</span>
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -68,7 +68,7 @@
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Beginning Amount : </span>
+                                            <span class="text-name-profile text-info">Beg. Amount : </span>
                                             <span class="detail-profile">{{ object.beg_amount|floatformat:2|intcomma }}</span>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Beginning Code : </span>
+                                            <span class="text-name-profile text-info">Beg. Code : </span>
                                             <span class="detail-profile">{{ object.beg_code_verbose }}</span>
                                         </div>
                                     </div>
@@ -92,7 +92,7 @@
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Beginning Date : </span>
+                                            <span class="text-name-profile text-info">Beg. Date : </span>
                                             <span class="detail-profile">{{ object.beg_date }}</span>
                                         </div>
                                     </div>

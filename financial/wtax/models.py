@@ -2,6 +2,7 @@ from __future__ import unicode_literals
 from django.core.urlresolvers import reverse
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.validators import MinValueValidator
 import datetime
 
 
@@ -11,7 +12,8 @@ class Wtax(models.Model):
     description = models.CharField(max_length=250)
     rate = models.IntegerField(default=0)
     wtaxtype_id = models.IntegerField(default=0)
-    wtaxchartofaccount_id = models.IntegerField(default=0)
+    chartofaccount = models.ForeignKey('chartofaccount.Chartofaccount', default=0, related_name='wtaxchartofaccount_id',
+                                       validators=[MinValueValidator(1)])
     STATUS_CHOICES = (
         ('A', 'Active'),
         ('C', 'Cancelled'),

@@ -14,7 +14,8 @@ class Bankaccount(models.Model):
     bankaccounttype = models.ForeignKey('bankaccounttype.Bankaccounttype', default=0, related_name='bankaccounttype_id',
                                         validators=[MinValueValidator(1)])
     currency = models.ForeignKey('currency.Currency', default=0, related_name='currency_id', validators=[MinValueValidator(1)])
-    chartofaccount_id = models.IntegerField(null=True, blank=True)
+    chartofaccount = models.ForeignKey('chartofaccount.Chartofaccount', default=0, related_name='chartofaccount_id',
+                                       validators=[MinValueValidator(1)], null=True, blank=True)
     accountnumber = models.CharField(max_length=30)
     remarks = models.CharField(max_length=250, null=True, blank=True)
     DEBITCREDIT_CHOICES = (

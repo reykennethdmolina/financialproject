@@ -8,6 +8,7 @@ from bank.models import Bank
 from bankbranch.models import Bankbranch
 from bankaccounttype.models import Bankaccounttype
 from currency.models import Currency
+from chartofaccount.models import Chartofaccount
 import datetime
 
 
@@ -32,7 +33,7 @@ class DetailView(DetailView):
 class CreateView(CreateView):
     model = Bankaccount
     template_name = 'bankaccount/create.html'
-    fields = ['code', 'bank', 'bankbranch', 'bankaccounttype', 'currency', 'chartofaccount_id', 'accountnumber',
+    fields = ['code', 'bank', 'bankbranch', 'bankaccounttype', 'currency', 'chartofaccount', 'accountnumber',
               'remarks', 'beg_amount', 'beg_code', 'beg_date', 'run_amount', 'run_code', 'run_date']
 
     def dispatch(self, request, *args, **kwargs):
@@ -52,6 +53,7 @@ class CreateView(CreateView):
         context['bank'] = Bank.objects.filter(isdeleted=0).order_by('description')
         context['bankaccounttype'] = Bankaccounttype.objects.filter(isdeleted=0).order_by('id')
         context['currency'] = Currency.objects.filter(isdeleted=0).order_by('id')
+        context['chartofaccount'] = Chartofaccount.objects.filter(isdeleted=0).order_by('description')
         return context
 
 
@@ -59,7 +61,7 @@ class CreateView(CreateView):
 class UpdateView(UpdateView):
     model = Bankaccount
     template_name = 'bankaccount/edit.html'
-    fields = ['code', 'bank', 'bankbranch', 'bankaccounttype', 'currency', 'chartofaccount_id', 'accountnumber',
+    fields = ['code', 'bank', 'bankbranch', 'bankaccounttype', 'currency', 'chartofaccount', 'accountnumber',
               'remarks', 'beg_amount', 'beg_code', 'beg_date', 'run_amount', 'run_code', 'run_date']
 
     def dispatch(self, request, *args, **kwargs):
@@ -79,6 +81,7 @@ class UpdateView(UpdateView):
         context['bank'] = Bank.objects.filter(isdeleted=0).order_by('description')
         context['bankaccounttype'] = Bankaccounttype.objects.filter(isdeleted=0).order_by('id')
         context['currency'] = Currency.objects.filter(isdeleted=0).order_by('id')
+        context['chartofaccount'] = Chartofaccount.objects.filter(isdeleted=0).order_by('description')
         context['bankbranch_id'] = self.object.bankbranch.id
         context['bankbranch_description'] = self.object.bankbranch.description
         return context
