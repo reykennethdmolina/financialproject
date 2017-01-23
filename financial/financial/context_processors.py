@@ -42,20 +42,20 @@ def usermodule(request):
     #result = []
     #for key, valuesiter in groupby(input, key=sortkeyfn):
     #    result.append(dict(main=key[0], items=list((v[0], v[1], v[2], v[3]) for v in valuesiter)))
-    userpermission = OrderedDict()
-    for p in result:
-        main = p.mainmoduledescp
-        icon = p.mainiconfile
-        #data['applabel'].append(p.app_label)
-        #data['modulename'] = p.moduledescp
-        if main not in userpermission:
-            userpermission[main] = [icon]
-        userpermission[main].append({p})
-       # userpermission.append(dict(main=p[0], items=list((v[0], v[1], v[2], v[3]) for v in p)))
+    # userpermission = OrderedDict()
+    # for p in result:
+    #     main = p.mainmoduledescp
+    #     icon = p.mainiconfile
+    #     #data['applabel'].append(p.app_label)
+    #     #data['modulename'] = p.moduledescp
+    #     if main not in userpermission:
+    #         userpermission[main] = [icon]
+    #     userpermission[main].append({p})
+    #    # userpermission.append(dict(main=p[0], items=list((v[0], v[1], v[2], v[3]) for v in p)))
 
 
     return {
-        'userpermission': userpermission,
+        'userpermission': result,
     }
 
 def namedtuplefetchall(cursor):
