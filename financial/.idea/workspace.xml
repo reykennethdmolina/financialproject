@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="6ee014c9-a2db-458c-a8a2-bc0324de69f1" name="Default" comment="" />
+    <list default="true" readonly="true" id="06a24460-34fc-4c22-8466-41f5e274a69b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0002_auto_20170109_1320.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0002_auto_20170112_0950.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0002_auto_20170118_1725.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0003_auto_20170110_1706.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0003_auto_20170112_1013.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0003_auto_20170118_1726.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0004_auto_20170118_1728.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0004_merge.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0005_auto_20170112_1456.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0006_auto_20170113_1042.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/0007_merge.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/templates/bankaccount/create.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/templates/bankaccount/delete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/templates/bankaccount/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/templates/bankaccount/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/templates/bankaccount/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0002_auto_20170110_1704.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0003_auto_20170111_1346.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0004_auto_20170111_1430.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0005_auto_20170111_1431.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0006_auto_20170111_1431.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0007_auto_20170111_1431.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0008_auto_20170111_1550.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0009_auto_20170112_0954.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0010_auto_20170116_1012.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0011_auto_20170116_1016.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0012_auto_20170116_1017.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0013_auto_20170116_1017.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0014_auto_20170116_1017.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0015_auto_20170116_1020.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0016_auto_20170116_1024.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0017_auto_20170116_1025.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0018_auto_20170116_1025.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0019_auto_20170116_1454.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0020_auto_20170116_1502.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0021_auto_20170116_1506.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0022_auto_20170116_1511.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0023_auto_20170116_1514.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0024_auto_20170116_1518.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0025_auto_20170116_1520.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0026_auto_20170119_0959.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/0027_auto_20170123_1333.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/templates/chartofaccount/create.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/templates/chartofaccount/delete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/templates/chartofaccount/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/templates/chartofaccount/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/templates/chartofaccount/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/templates/bankaccount" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/templates/chartofaccount" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/migrations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/migrations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankaccount/templates" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chartofaccount/templates" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="0f65d2d2-0901-491a-a58b-f004d7807527" name="Failed commit: Default" comment="" />
     <ignored path="financial.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -13,11 +89,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/financial$context_processors.coverage" NAME="context_processors Coverage Results" MODIFIED="1484189666393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/financial" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/journalvoucher/views.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="0.07692308">
+                    <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -25,54 +124,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer/templates/customer/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.230769">
-              <caret line="257" column="51" selection-start-line="257" selection-start-column="51" selection-end-line="257" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base-form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.5">
-              <caret line="220" column="51" selection-start-line="220" selection-start-column="51" selection-end-line="220" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom-masks.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/financial-layout/assets/js/form-mask/custom-masks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5760599">
-              <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer/models.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financial/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header-section.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/header-section.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.5119363">
+              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context_processors.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financial/context_processors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+              <folding>
+                <element signature="e#33#82#0" expanded="true" />
+                <marker date="1485163240000" expanded="true" signature="413:1097" placeholder="SELECT dct.*..django_content_type..." />
+                <marker date="1485163240000" expanded="true" signature="1134:2079" placeholder="SELECT dct.*..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer/views.py">
+        <entry file="file://$PROJECT_DIR$/product/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="90" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#89#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/templates/module/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +185,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Html5" />
+        <option value="Python Script" />
         <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
@@ -128,21 +231,33 @@
         <option value="$PROJECT_DIR$/unit/templates/unit/edit.html" />
         <option value="$PROJECT_DIR$/vat/templates/vat/create.html" />
         <option value="$PROJECT_DIR$/vat/templates/vat/edit.html" />
-        <option value="$PROJECT_DIR$/wtax/templates/wtax/create.html" />
-        <option value="$PROJECT_DIR$/wtax/templates/wtax/edit.html" />
-        <option value="$PROJECT_DIR$/static/financial-layout/assets/css/form-advanced/smart_wizard.css" />
-        <option value="$PROJECT_DIR$/static/financial-layout/assets/js/form-wizad/customer-form-wizard/customer.custom.min.js" />
-        <option value="$PROJECT_DIR$/static/financial-layout/assets/css/customer/customer-style.css" />
-        <option value="$PROJECT_DIR$/customer/templates/customer/css/style.css" />
-        <option value="$PROJECT_DIR$/static/js/jquery.maskedinput.min.js" />
+        <option value="$PROJECT_DIR$/bank/templates/bank/edit.html" />
+        <option value="$PROJECT_DIR$/adtype/templates/index.html" />
+        <option value="$PROJECT_DIR$/product/models.py" />
+        <option value="$PROJECT_DIR$/product/templates/product/index.html" />
+        <option value="$PROJECT_DIR$/product/urls.py" />
+        <option value="$PROJECT_DIR$/financial/urls.py" />
+        <option value="$PROJECT_DIR$/adtype/models.py" />
+        <option value="$PROJECT_DIR$/adtype/templates/adtype/index.html" />
+        <option value="$PROJECT_DIR$/adtype/urls.py" />
+        <option value="$PROJECT_DIR$/adtype/templates/adtype/create.html" />
+        <option value="$PROJECT_DIR$/adtype/templates/adtype/delete.html" />
+        <option value="$PROJECT_DIR$/adtype/templates/adtype/edit.html" />
+        <option value="$PROJECT_DIR$/adtype/views.py" />
+        <option value="$PROJECT_DIR$/adtype/templates/adtype/detail.html" />
+        <option value="$PROJECT_DIR$/mainproduct/templates/mainproduct/detail.html" />
+        <option value="$PROJECT_DIR$/mainproduct/views.py" />
+        <option value="$PROJECT_DIR$/mainproduct/templates/mainproduct/index.html" />
+        <option value="$PROJECT_DIR$/mainproduct/models.py" />
         <option value="$PROJECT_DIR$/templates/base-form.html" />
-        <option value="$PROJECT_DIR$/static/financial-layout/assets/js/form-mask/custom-masks.js" />
-        <option value="$PROJECT_DIR$/bankaccount/templates/bankaccount/create.html" />
-        <option value="$PROJECT_DIR$/bankaccount/templates/bankaccount/edit.html" />
-        <option value="$PROJECT_DIR$/customer/templates/customer/test2.html" />
-        <option value="$PROJECT_DIR$/static/js/custom-maskMoney.js" />
-        <option value="$PROJECT_DIR$/customer/views.py" />
-        <option value="$PROJECT_DIR$/customer/templates/customer/create.html" />
+        <option value="$PROJECT_DIR$/module/templates/module/create.html" />
+        <option value="$PROJECT_DIR$/module/templates/module/edit.html" />
+        <option value="$PROJECT_DIR$/financial/header.py" />
+        <option value="$PROJECT_DIR$/product/context_processors.py" />
+        <option value="$PROJECT_DIR$/financial/settings.py" />
+        <option value="$PROJECT_DIR$/product/views.py" />
+        <option value="$PROJECT_DIR$/financial/context_processors.py" />
+        <option value="$PROJECT_DIR$/templates/header-section.html" />
       </list>
     </option>
   </component>
@@ -154,10 +269,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="15" />
+    <option name="y" value="48" />
+    <option name="width" value="1021" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -183,7 +298,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,7 +326,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="typeofexpense" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,8 +357,18 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="financial-layout" />
+              <option name="myItemId" value="financial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,15 +382,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="financial-layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="module" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,19 +396,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="financial-layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="journalvoucher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,28 +410,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="financial-layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form-mask" />
+              <option name="myItemId" value="financial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,17 +431,32 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\financialproject.dev\branches\graceannvillanueva\financial\static\js" />
-      <recent name="E:\financialproject.dev\branches\graceannvillanueva\financial\static\financial-layout\assets\js\form-wizad\customer-form-wizard" />
-      <recent name="E:\financialproject.dev\branches\graceannvillanueva\financial\bankaccount\templates\bankaccount" />
-      <recent name="E:\financialproject.dev\branches\graceannvillanueva\financial\bankaccount\templates\bankaccount\js" />
+      <recent name="$PROJECT_DIR$/financial" />
       <recent name="$PROJECT_DIR$/adtype/templates/adtype" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/adtype/templates/adtype" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.financial">
+  <component name="RunManager" selected="Python.context_processors">
+    <configuration default="false" name="context_processors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/financial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="financial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial/context_processors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -555,6 +673,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="financial.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -573,21 +692,45 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Django server.financial" />
+      <item index="1" class="java.lang.String" itemvalue="Python.context_processors" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.context_processors" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" myAutoUpdateAfterCommit="true" cleanupOnStartRun="true">
-    <configuration>C:\Users\Grace Villanueva\AppData\Roaming\Subversion</configuration>
+    <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
     <option name="FORCE_UPDATE" value="true" />
     <option name="IGNORE_EXTERNALS" value="true" />
     <option name="UPDATE_DEPTH" value="infinity" />
   </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6ee014c9-a2db-458c-a8a2-bc0324de69f1" name="Default" comment="" />
+      <changelist id="06a24460-34fc-4c22-8466-41f5e274a69b" name="Default" comment="" />
       <created>1483692625132</created>
       <option name="number" value="Default" />
       <updated>1483692625132</updated>
@@ -604,32 +747,70 @@
       <option name="project" value="LOCAL" />
       <updated>1484033549028</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003">
+      <created>1484045274056</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484045274056</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1484201946264</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484201946264</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1484201979029</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484201979029</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1484202156030</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1484202156030</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1484206576054</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1484206576054</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Failed commit: Default (2)">
+      <created>1485164842063</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1485164842063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="15" y="48" width="1021" height="709" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28330892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3254717" sideWeight="0.5146413" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254717" sideWeight="0.48535872" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17825662" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -648,7 +829,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Failed commit: Default (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Failed commit: Default (2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,75 +839,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ataxcode/templates/ataxcode/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46735394">
-          <caret line="16" column="160" selection-start-line="16" selection-start-column="160" selection-end-line="16" selection-end-column="160" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aptype/templates/aptype/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46735394">
-          <caret line="16" column="194" selection-start-line="16" selection-start-column="160" selection-end-line="16" selection-end-column="194" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aptype/templates/aptype/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52577317">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bankaccounttype/templates/bankaccounttype/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29294756">
-          <caret line="16" column="194" selection-start-line="16" selection-start-column="154" selection-end-line="16" selection-end-column="194" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bankaccounttype/templates/bankaccounttype/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46735394">
-          <caret line="16" column="149" selection-start-line="16" selection-start-column="149" selection-end-line="16" selection-end-column="149" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creditterm/templates/creditterm/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33273056">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creditterm/templates/creditterm/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30584192">
-          <caret line="16" column="214" selection-start-line="16" selection-start-column="214" selection-end-line="16" selection-end-column="214" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/currency/templates/currency/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46735394">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customertype/templates/customertype/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26632303">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -733,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46735394">
           <caret line="16" column="214" selection-start-line="16" selection-start-column="214" selection-end-line="16" selection-end-column="214" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46735394">
           <caret line="16" column="194" selection-start-line="16" selection-start-column="194" selection-end-line="16" selection-end-column="194" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46735394">
           <caret line="16" column="214" selection-start-line="16" selection-start-column="214" selection-end-line="16" selection-end-column="214" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43814433">
           <caret line="21" column="195" selection-start-line="21" selection-start-column="195" selection-end-line="21" selection-end-column="195" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61340207">
           <caret line="21" column="195" selection-start-line="21" selection-start-column="195" selection-end-line="21" selection-end-column="195" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46735394">
           <caret line="16" column="194" selection-start-line="16" selection-start-column="194" selection-end-line="16" selection-end-column="194" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,15 +899,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46735394">
           <caret line="16" column="214" selection-start-line="16" selection-start-column="214" selection-end-line="16" selection-end-column="214" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typeofexpense/templates/typeofexpense/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46735394">
-          <caret line="16" column="194" selection-start-line="16" selection-start-column="194" selection-end-line="16" selection-end-column="194" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -797,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46735394">
           <caret line="16" column="214" selection-start-line="16" selection-start-column="214" selection-end-line="16" selection-end-column="214" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,15 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33273056">
           <caret line="28" column="194" selection-start-line="28" selection-start-column="194" selection-end-line="28" selection-end-column="194" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/templates/unit/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7302405">
-          <caret line="28" column="214" selection-start-line="28" selection-start-column="214" selection-end-line="28" selection-end-column="214" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16998191">
           <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35738832">
           <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.846293">
           <caret line="38" column="139" selection-start-line="38" selection-start-column="139" selection-end-line="38" selection-end-column="139" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7594502">
           <caret line="38" column="139" selection-start-line="38" selection-start-column="139" selection-end-line="38" selection-end-column="139" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,9 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1118421">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5538847">
           <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.24138">
           <caret line="286" column="29" selection-start-line="286" selection-start-column="29" selection-end-line="286" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3866279">
           <caret line="637" column="52" selection-start-line="637" selection-start-column="52" selection-end-line="637" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.085213035">
           <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,25 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bankaccount/templates/bankaccount/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5924933">
-          <caret line="145" column="124" selection-start-line="145" selection-start-column="124" selection-end-line="145" selection-end-column="124" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bankaccount/templates/bankaccount/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4075067">
-          <caret line="116" column="59" selection-start-line="116" selection-start-column="59" selection-end-line="116" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="52.910713">
           <caret line="8" column="23360" selection-start-line="8" selection-start-column="23352" selection-end-line="8" selection-end-column="23360" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,19 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5430108">
           <caret line="0" column="59460" selection-start-line="0" selection-start-column="59460" selection-end-line="0" selection-end-column="59460" />
-          <folding>
-            <element signature="e#178#29541#2" expanded="false" />
-            <element signature="e#29701#59016#2" expanded="false" />
-            <element signature="e#59557#62052#2" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/financial-layout/assets/plugin/jQuery-Form-Validator/js/theme-default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.703704">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38345864">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.045698926">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-83.965515">
           <caret line="1843" column="0" selection-start-line="1843" selection-start-column="0" selection-end-line="1843" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,27 +1053,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3315508">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bankaccount/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42394015">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#89#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="90" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#89#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.6683673">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1025,56 +1067,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41333333">
           <caret line="23" column="34" selection-start-line="20" selection-start-column="28" selection-end-line="23" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customer/models.py">
+    <entry file="file://$PROJECT_DIR$/mainproduct/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer/templates/customer/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.230769">
-          <caret line="257" column="51" selection-start-line="257" selection-start-column="51" selection-end-line="257" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16957606">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state vertical-scroll-proportion="1.4705882">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#89#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainproduct/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainproduct/templates/mainproduct/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainproduct/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5588235">
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainproduct/templates/mainproduct/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2857143">
+          <caret line="61" column="70" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/templates/module/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38265306">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.5">
-          <caret line="220" column="51" selection-start-line="220" selection-start-column="51" selection-end-line="220" selection-end-column="51" />
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.36764705">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4488778">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/templates/module/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/financial-layout/assets/js/form-mask/custom-masks.js">
+    <entry file="file://$PROJECT_DIR$/financial/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5760599">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financial/context_processors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="e#33#82#0" expanded="true" />
+            <marker date="1485163240000" expanded="true" signature="413:1097" placeholder="SELECT dct.*..django_content_type..." />
+            <marker date="1485163240000" expanded="true" signature="1134:2079" placeholder="SELECT dct.*..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/journalvoucher/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07692308">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header-section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5119363">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
           <folding />
         </state>
       </provider>
