@@ -63,6 +63,18 @@ INSTALLED_APPS = [
     'chartofaccount',
     'cvtype',
     'aptype',
+    'ofsubtype',
+    'oftype',
+    'ortype',
+    'paytype',
+    'potype',
+    'serviceclassification',
+    'productgroup',
+    'unitofmeasure',
+    'suppliertype',
+    'customertype',
+    'creditterm',
+    'customer',
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -61,5 +61,13 @@
         'pattern': '{{9999}}-{{99}}-{{99}}',
         'persistent': true
     });
+    $('.phoneNumber').formatter({
+        'pattern': '({{999}}) {{999}}-{{9999}}',
+        'persistent': true
+    });
+    $('.tinNumber').formatter({
+        'pattern': '{{999}}-{{999}}-{{999}}-{{999}}',
+        'persistent': true
+    });
 
 }(window, document, jQuery);

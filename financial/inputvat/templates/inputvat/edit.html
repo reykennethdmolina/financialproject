@@ -22,13 +22,19 @@
                             </select>
                             <span class="help-block form-error">{{ form.inputvattype.errors.as_text }}</span>
                         </div>
-                        <div class="form-group">
-                            <label for="id_inputvatchartofaccount_id" class="control-label">Input VAT Chart of Account</label>
-                            <br>{{ form.inputvatchartofaccount_id }}
+                        <div class="form-group form-material {{ form.inputvatchartofaccount.errors|yesno:'has-error,' }}">
+                            <label for="id_inputvatchartofaccount" class="control-label">Input VAT Chart of Account</label>
+                            <select id="id_inputvatchartofaccount" name="inputvatchartofaccount" class="form-control" data-validation="required">
+                                <option value="">-- Select --</option>
+                                {% for inputvatchartofaccount in inputvatchartofaccount %}
+                                    <option value="{{ inputvatchartofaccount.id }}" {% if form.inputvatchartofaccount.value|add:0 == inputvatchartofaccount.id %} selected="selected" {% endif %}>{{ inputvatchartofaccount.description }}</option>
+                                {% endfor %}
+                            </select>
+                            <span class="help-block form-error">{{ form.inputvatchartofaccount.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
                             <label for="id_code" class="control-label">Code</label>
-                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" readonly="readonly" value={{ form.code.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_code" maxlength="10" placeholder="Code" name="code" data-validation="required" readonly="readonly" value="{{ form.code.value|default:'' }}">
                             <span class="help-block form-error">{{ form.code.errors.as_text }}</span>
                         </div>
                         <div class="form-group">
@@ -39,7 +45,7 @@
                         </div>
                         <div class="form-group">
                             <label for="id_title" class="control-label">Title</label>
-                            <input type="text" class="form-control" id="id_title" maxlength="50" placeholder="Title" name="title" data-validation="required" value={{ form.title.value|default:"" }}>
+                            <input type="text" class="form-control" id="id_title" maxlength="50" placeholder="Title" name="title" data-validation="required" value="{{ form.title.value|default:'' }}">
                             <span class="help-block form-error">{{ form.title.errors.as_text }}</span>
                         </div>
                         <div class="form-group margin-bottom-0">

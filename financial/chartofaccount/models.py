@@ -34,7 +34,7 @@ class Chartofaccount(models.Model):
     clas = models.IntegerField(validators=[MaxValueValidator(9), MinValueValidator(0)])
     item = models.IntegerField(validators=[MaxValueValidator(9), MinValueValidator(0)])
     cont = models.IntegerField(validators=[MaxValueValidator(9), MinValueValidator(0)])
-    sub = models.CharField(max_length=6, default='00')
+    sub = models.CharField(max_length=6)
     accountcode = models.CharField(max_length=10, unique=True)
     title = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
@@ -47,9 +47,9 @@ class Chartofaccount(models.Model):
     mainposting = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
     fixedasset = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
     taxespayable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
-    product = models.ForeignKey('product.Product', related_name='product_id', validators=[MaxValueValidator(99999), MinValueValidator(0)])
-    typeofexpense = models.ForeignKey('typeofexpense.Typeofexpense', related_name='typeofexpense_id', validators=[MaxValueValidator(99999), MinValueValidator(0)])
-    kindofexpense = models.ForeignKey('kindofexpense.Kindofexpense', related_name='kindofexpense_id', validators=[MaxValueValidator(99999), MinValueValidator(0)])
+    product = models.ForeignKey('product.Product', related_name='product_id', null=True, blank=True, validators=[MaxValueValidator(99999), MinValueValidator(0)])
+    typeofexpense = models.ForeignKey('typeofexpense.Typeofexpense', related_name='typeofexpense_id', null=True, blank=True, validators=[MaxValueValidator(99999), MinValueValidator(0)])
+    kindofexpense = models.ForeignKey('kindofexpense.Kindofexpense', related_name='kindofexpense_id', null=True, blank=True, validators=[MaxValueValidator(99999), MinValueValidator(0)])
     bankaccount_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
     department_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
     employee_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
@@ -58,7 +58,7 @@ class Chartofaccount(models.Model):
     branch_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
     product_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
     unit_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
-    mainunit = models.ForeignKey('mainunit.Mainunit', related_name='mainunit_chartofaccount_id', validators=[MaxValueValidator(99999), MinValueValidator(0)])
+    mainunit = models.ForeignKey('mainunit.Mainunit', related_name='mainunit_chartofaccount_id', null=True, blank=True, validators=[MaxValueValidator(99999), MinValueValidator(0)])
     inputvat_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
     outputvat_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
     vat_enable = models.CharField(max_length=1, choices=YESNO_CHOICES, default='N')
@@ -74,6 +74,7 @@ class Chartofaccount(models.Model):
     class Meta:
         db_table = 'chartofaccount'
         ordering = ['-pk']
+        permissions = (("view_chartofaccount", "Can view chartofaccount"),)
 
     def get_absolute_url(self):
         return reverse('chartofaccount:detail', kwargs={'pk': self.pk})
