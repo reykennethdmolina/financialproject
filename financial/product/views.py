@@ -14,6 +14,11 @@ class IndexView(ListView):
     template_name = 'product/index.html'
     context_object_name = 'data_list'
 
+    #def get_context_data(self, **kwargs):
+    #    context = super(IndexView, self).get_context_data(**kwargs)
+    #    context['test'] = Permission.objects.all()
+    #    return context
+
     def get_queryset(self):
         return Product.objects.all().filter(isdeleted=0).order_by('-pk')
 

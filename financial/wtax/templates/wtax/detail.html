@@ -34,21 +34,21 @@
                                             <span class="detail-profile">{{ object.rate }} % </span>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                         <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Withholding Tax Type ID : </span>
+                                            <br><span class="text-name-profile text-info">Type ID : </span>
                                             <span class="detail-profile">{{ object.wtaxtype_id }}</span>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                         <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Withholding Tax Chart of Account ID : </span>
-                                            <span class="detail-profile">{{ object.wtaxchartofaccount_id }}</span>
+                                            <span class="text-name-profile text-info">Chart of Account : </span>
+                                            <span class="detail-profile">{{ object.chartofaccount.title }} - {{ object.chartofaccount.description }} ({{ object.chartofaccount.accountcode }})</span>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                         <div class="first-name-profile">
-                                            <span class="text-name-profile text-info">Status : </span>
+                                            <br><span class="text-name-profile text-info">Status : </span>
                                             <span class="detail-profile">{{ object.status_verbose }}</span>
                                         </div>
                                     </div>
