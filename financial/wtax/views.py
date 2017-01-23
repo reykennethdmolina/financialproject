@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.http import HttpResponseRedirect, Http404
 from . models import Wtax
+from chartofaccount.models import Chartofaccount
 import datetime
 
 
@@ -26,7 +27,7 @@ class DetailView(DetailView):
 class CreateView(CreateView):
     model = Wtax
     template_name = 'wtax/create.html'
-    fields = ['code', 'description', 'rate', 'wtaxtype_id', 'wtaxchartofaccount_id']
+    fields = ['code', 'description', 'rate', 'wtaxtype_id', 'chartofaccount']
 
     def dispatch(self, request, *args, **kwargs):
         if not request.user.has_perm('wtax.add_wtax'):
@@ -40,12 +41,17 @@ class CreateView(CreateView):
         self.object.save()
         return HttpResponseRedirect('/wtax')
 
+    def get_context_data(self, **kwargs):
+        context = super(CreateView, self).get_context_data(**kwargs)
+        context['chartofaccount'] = Chartofaccount.objects.filter(isdeleted=0).order_by('description')
+        return context
+
 
 @method_decorator(login_required, name='dispatch')
 class UpdateView(UpdateView):
     model = Wtax
     template_name = 'wtax/edit.html'
-    fields = ['code', 'description', 'rate', 'wtaxtype_id', 'wtaxchartofaccount_id']
+    fields = ['code', 'description', 'rate', 'wtaxtype_id', 'chartofaccount']
 
     def dispatch(self, request, *args, **kwargs):
         if not request.user.has_perm('wtax.change_wtax'):
@@ -58,6 +64,11 @@ class UpdateView(UpdateView):
         self.object.modifydate = datetime.datetime.now()
         self.object.save()
         return HttpResponseRedirect('/wtax')
+
+    def get_context_data(self, **kwargs):
+        context = super(UpdateView, self).get_context_data(**kwargs)
+        context['chartofaccount'] = Chartofaccount.objects.filter(isdeleted=0).order_by('description')
+        return context
 
 
 @method_decorator(login_required, name='dispatch')

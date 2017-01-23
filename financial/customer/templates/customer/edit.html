@@ -98,7 +98,7 @@
                              {{ form.tin.errors|yesno:'has-error,' }}">
                                 <label for="id_tin" class="col-sm-3 control-label">TIN</label>
                                 <div class="col-sm-7">
-                                    <input type="number" class="form-control" id="id_tin" placeholder="TIN" name="tin" data-validation="required" value={{ form.tin.value|default:"" }}>
+                                    <input type="text" class="form-control tinNumber" id="id_tin" placeholder="TIN" name="tin" data-validation="required" value={{ form.tin.value|default:"" }}>
                                     <span class="help-block form-error">{{ form.tin.errors.as_text }}</span>
                                 </div>
                             </div>
@@ -213,7 +213,7 @@
                             {{ form.creditlimit.errors|yesno:'has-error,' }}">
                                 <label for="id_creditlimit" class="col-sm-3 control-label">Credit Limit</label>
                                 <div class="col-sm-7">
-                                    <input type="text" class="form-control amount" id="id_creditlimit" name="creditlimit" value="{{ form.creditlimit.value|default:'' }}">
+                                    <input type="text" class="form-control amount" id="id_creditlimit" name="creditlimit" maxlength="26" value="{{ form.creditlimit.value|default:'' }}">
                                     <span class="help-block form-error">{{ form.creditlimit.errors.as_text }}</span>
                                 </div>
                             </div>
@@ -307,14 +307,14 @@
                             <div class="form-group form-group-0 col-md-6 {{ form.beg_amount.errors|yesno:'has-error,' }}">
                                 <label for="id_beg_amount" class="col-sm-4 control-label">Beginning Balance</label>
                                 <div class="col-sm-7">
-                                    <input type="text" class="form-control amount" id="id_beg_amount" name="beg_amount" value="{{ form.beg_amount.value|default:'' }}">
+                                    <input type="text" class="form-control amount" id="id_beg_amount" name="beg_amount" maxlength="26" value="{{ form.beg_amount.value|default:'' }}">
                                     <span class="help-block form-error">{{ form.beg_amount.errors.as_text }}</span>
                                 </div>
                             </div>
                             <div class="form-group form-group-0 col-md-6 {{ form.end_amount.errors|yesno:'has-error,' }}">
                                 <label for="id_end_amount" class="col-sm-4 control-label">End Balance</label>
                                 <div class="col-sm-7">
-                                    <input type="text" class="form-control amount" id="id_end_amount" name="end_amount" value="{{ form.end_amount.value|default:'' }}">
+                                    <input type="text" class="form-control amount" id="id_end_amount" name="end_amount" maxlength="26" value="{{ form.end_amount.value|default:'' }}">
                                     <span class="help-block form-error">{{ form.end_amount.errors.as_text }}</span>
                                 </div>
                             </div>
