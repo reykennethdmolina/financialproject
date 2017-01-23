@@ -5,7 +5,6 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 from django.contrib.auth.models import User
 import datetime
 
-
 class Chartofaccount(models.Model):
     DEBITCREDIT_CHOICES = (
         ('D', 'Debit'),
