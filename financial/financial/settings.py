@@ -122,10 +122,10 @@ DATABASES = {
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_financial',
-        'HOST': '128.1.44.2',
+        'HOST': '127.1.1.0',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'mysqld3vserver',
+        'PASSWORD': 'password',
         'OPTIONS': {
             'init_command': 'SET storage_engine=INNODB',
         }
